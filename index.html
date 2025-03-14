@@ -1,0 +1,220 @@
+<html>
+<head>
+<style>
+body{ 
+background-color:#F8F8FF;
+}
+.buttonn {
+text-align: center;
+margin-right: auto;
+margin-left: auto;
+padding: 10px;
+color: white;
+}
+.buttoncolor { 
+color: white;
+
+}
+table {
+            width: 100%;
+            border-collapse: separate;
+            border-radius: 5px;
+             border-spacing: 10px;
+             float: right;
+        }
+        th, td {
+            border: 2px solid darkgray;
+            margin: 10px;
+            border-radius: 5px;
+            padding: 10px;
+            text-align: left;
+            background-color: White;
+             text-align: center;
+        }
+        th {
+            background-color: #778899;
+            color: white;
+            border: 2px solid white;
+        }
+.p1 {
+margin: auto;
+width: 700px;
+}
+p {
+background-color: white;
+border: 2px solid darkgray;
+border-radius: 5px;
+padding: 10px;
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+  display: grid;
+  row-gap: 25px;
+  column-gap: 50px;
+  grid-template-columns: auto auto auto;
+  background-color: #B0C4DE;
+  padding: 20px;
+  border: 2px solid darkgray;
+  border-radius: 5px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.container > div {
+  background-color: white;
+  border: 2px solid darkgray;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+.header{
+font-family: Arial, Helvetica, sans-serif;
+text-align: center;
+padding: 10px;
+background-color: White; 
+border: 3px solid darkgray;
+border-radius: 5px;
+width: 500px;
+margin: auto;
+}
+.footer{
+font-family: Arial, Helvetica, sans-serif;
+text-align: center;
+padding: 10px;
+background-color: White; 
+border: 3px solid darkgray;
+border-radius: 5px;
+width: 300px;
+margin: auto;
+}
+.pbox{
+width: 100px;
+margin: auto;
+font-family: 'Brush Script MT', cursive;
+font-size: 20px;
+}
+ .list {
+ margin-left: auto;
+ margin-right: auto;
+ text-align: center;
+ width: 200px;
+  }
+   ul {
+      list-style-type: disc; /* Bullet style */
+      padding-left: 5px; /* Removes default padding */
+      margin-left: 20px; /* Adjust this value to align bullets with content */
+    }
+    li {
+      margin-bottom: 10px; /* Space between list items */
+      padding: 10px;
+      border-radius: 5px;
+       border: 4px dotted darkgray;
+        background-color: white;
+        
+    }
+a {
+width: 200px;
+margin: auto;
+}
+.foot 
+{ width: 100px;
+}
+.list2 {
+border: 3px solid white;
+border-radius: 5px;
+background-color: #B0C4DE;
+margin-left: auto;
+margin-right: auto;
+width: 500px;
+}
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js">
+</script>
+
+<script>
+$(document).ready( function() {
+// your code will go in here.
+});
+</script>
+</head>
+<body>
+
+<h1 class="header">Different Caloric Intakes</h1>
+<div class="p1">
+<p>The following will display the differences that occur during different caloric intakes.
+<br>
+By: Kevin E Morales</p>
+</div>
+<div class="buttonn">
+<button id="button1" "buttoncolor">Click here to do something.</button>
+</div>
+<br>
+<div class="container">
+<p class= "pbox">Deficit</p>
+<p class= "pbox">Surplus</p>
+<p class= "pbox">Maintenance</p>
+  <div>During a deficit, the goal is often to loose weight while retaining as much muscle mass as possible. To achieve that goal, a 500-1000 daily caloric deficit needs to occur while maintaining adequate protein and fat levels. Protein should be equivilent to your bodyweight in grams while fat should be 30% of your daily caloric intake.</div>
+  <div>During a surplus, the goal is to gain weight while also attempting to gain the most amount of muscle possible. I personally recommending intaking a surplus of only 100-250 calories daily to prevent as much fat gain as possible. Protein levels should exceed your bodyweight by 20-40 grams for bodybuilding/ powerlifting purposes.</div>
+  <div>Maintenance is a very interesting subject in terms of bodybuilding/ powerlifting. My ongoing theory is that it is possible to gain muscle and loose fat at the same time while in a maintenance. Unfortunately, those in the very advance stages of both sports need to be in a surplus to gain muscle. For competition purposes to make weight, both sports will often dehydrate themselves considering that water weight contributes to our body weight significantly.</div>
+</div>
+<br>
+ <br>
+<div class="container">
+  <div> <a href="https://th.bing.com/th/id/OIP.C6jy_gVox1rUttnQyP22TQHaFO?rs=1&pid=ImgDetMain" target="_blank">
+        <img src="https://th.bing.com/th/id/OIP.C6jy_gVox1rUttnQyP22TQHaFO?rs=1&pid=ImgDetMain" alt="Image Description" />
+    </a>
+    <p>Image source: 
+        <a href="https://th.bing.com/th/id/OIP.C6jy_gVox1rUttnQyP22TQHaFO?rs=1&pid=ImgDetMain" target="_blank">
+            www.workingagainstgravity.com
+        </a>
+    </div>
+
+ <table>
+        <thead>
+            <tr>
+            <th>Nutrients</th>
+                <th>Surplus</th>
+                <th>Deficit</th>
+                <th>Maintenance</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Carbs</td>
+                <td>300g</td>
+                <td>200g</td>
+                <td>250g</td>
+            </tr>
+            <tr>
+                <td>Protein</td>
+                <td>225g</td>
+                <td>150g</td>
+                <td>188g</td>
+            </tr>
+            <tr>
+                <td>Fats</td>
+                <td>100g</td>
+                <td>67g</td>
+                <td>83g</td>
+            </tr>
+            <tr>
+                <td>185 lbs male</td>
+            </tr>
+        </tbody>
+    </table>
+  </div>
+  <br>
+  <div class="list2">
+  <br>
+  <h3 class="footer">Key Points</h3>
+  <ul class="list">
+  <li>Ensure you consume enough protein!</li>
+  <li>More muscle mass does not equate to being "bulky".</li>
+  <li>Align your macros and stay consistent for your goals!</li>
+</ul>
+</div>
+</body>
+</html>
