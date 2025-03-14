@@ -135,8 +135,10 @@ width: 500px;
 </script>
 
 <script>
-$(document).ready( function() {
-// your code will go in here.
+$(document).ready(function(){
+  $("button").click(function(){
+    $(this).hide();
+  });
 });
 </script>
 </head>
@@ -149,7 +151,7 @@ $(document).ready( function() {
 By: Kevin E Morales</p>
 </div>
 <div class="buttonn">
-<button id="button1" "buttoncolor">Click here to do something.</button>
+<button id="button1" "buttoncolor">Click here to disappear.</button>
 </div>
 <br>
 <div class="container">
