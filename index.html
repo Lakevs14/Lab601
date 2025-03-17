@@ -145,6 +145,19 @@ background-color: white;
 border-radius: 5px;
   border: 2px solid darkgray;
 font-family: Arial, Helvetica, sans-serif;
+left-margin: auto;
+right-margin: auto;
+text-align: center;
+}
+#toggle {
+padding: 5px;
+background-color: white;
+border-radius: 5px;
+  border: 2px solid darkgray;
+font-family: Arial, Helvetica, sans-serif;
+left-margin: auto;
+right-margin: auto;
+text-align: center;
 }
 </style>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js">
@@ -160,6 +173,14 @@ $(document).ready(function(){
   });
 });
 </script>
+<script>
+$(document).ready(function(){
+  $("#toggle").click(function(){
+    $(".container").toggle();
+  });
+});
+</script>
+
 </head>
 <body>
 
@@ -177,6 +198,11 @@ By: Kevin E Morales</p>
 <button id="show">Show Information</button>
 </div>
 <br>
+<div class= "buttonn">
+<button id="toggle">Toggle Information</button>
+</div>
+<br>
+
 <div class="container">
 <p class= "pbox">Deficit</p>
 <p class= "pbox">Surplus</p>
